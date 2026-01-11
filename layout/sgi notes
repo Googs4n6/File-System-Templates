@@ -1,0 +1,65 @@
+                                                     Disk: sgi
+                                 Size: 1000 MiB, 1048576000 bytes, 2048000 sectors
+                                                     Label: sgi
+
+    Device                 Start           End        Sectors          Size        Id Type                     Attrs
+>>  sgi9                       0          4095           4096            2M         0 SGI volhdr                    
+    sgi11                      0       2040254        2040255        996.2M         6 SGI volume
+    Free space              4096       2047999        2043904          998M
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk
+ xPartition type: SGI volhdr (0)                                                                                  x
+ mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+           [Bootable]  [ Delete ]  [ Resize ]  [  Quit  ]  [  Type  ]  [  Help  ]  [  Write ]  [  Dump  ]
+
+
+                                        Quit program without writing changes
+

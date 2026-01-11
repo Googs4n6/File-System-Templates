@@ -1,0 +1,65 @@
+                                                     Disk: sun
+                                 Size: 1000 MiB, 1048576000 bytes, 2048000 sectors
+                                                     Label: sun
+
+    Device                   Start           End       Sectors         Size       Id Type                      Flags
+>>  sun1                         0       1943864       1943865       949.2M       83 Linux native                   
+    sun2                   1943865       2040254         96390        47.1M       82 Linux swap                   u
+    sun3                         0       2040254       2040255       996.2M        5 Whole disk
+    Free space             2041856       2047999          6144           3M
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk
+ xPartition type: Linux native (83)                                                                               x
+ mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+                 [ Delete ]  [ Resize ]  [  Quit  ]  [  Type  ]  [  Help  ]  [  Write ]  [  Dump  ]
+
+
+                                        Quit program without writing changes
+

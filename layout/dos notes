@@ -1,0 +1,65 @@
+                                                     Disk: dos
+                                 Size: 1000 MiB, 1048576000 bytes, 2048000 sectors
+                                         Label: dos, identifier: 0x45e1b333
+
+    Device           Boot              Start            End        Sectors         Size        Id Type
+>>  Free space                          2048        2047999        2045952         999M                             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             [   New  ]  [  Quit  ]  [  Help  ]  [  Write ]  [  Dump  ]
+
+
+                                        Create new partition from free space
+

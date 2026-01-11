@@ -1,0 +1,65 @@
+                                                     Disk: gpt
+                                 Size: 1000 MiB, 1048576000 bytes, 2048000 sectors
+                            Label: gpt, identifier: 2FBD1F24-510E-42E6-9EEC-0CC2F1DEECBA
+
+    Device                         Start               End           Sectors             Size Type
+>>  Free space                      2048           2047966           2045919             999M                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             [   New  ]  [  Quit  ]  [  Help  ]  [  Write ]  [  Dump  ]
+
+
+                                        Create new partition from free space
+
