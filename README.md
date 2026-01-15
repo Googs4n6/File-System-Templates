@@ -14,4 +14,4 @@ ext4 + LVM <br>
 ext4 + RAID 0,1,5,6 <br>
 ZFS <br>
 
-## How to Use
+https://googs4n6.github.io/File-System-Templates/
