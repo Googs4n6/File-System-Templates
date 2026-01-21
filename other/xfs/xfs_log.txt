@@ -1,0 +1,135 @@
+xfs_logprint:
+    data device: 0x10300
+    log device: 0x10300 daddr: 1022008 length: 131072
+
+cycle: 1	version: 2		lsn: 1,0	tail_lsn: 1,0
+length of Log Record: 512	prev offset: -1		num ops: 1
+uuid: 985604ba-925c-4041-9415-412e86885105   format: little endian linux
+h_size: 32768
+----------------------------------------------------------------------------
+Oper (0): tid: b0c0d0d0  len: 8  clientid: LOG  flags: UNMOUNT 
+Unmount filesystem
+
+============================================================================
+cycle: 1	version: 2		lsn: 1,2	tail_lsn: 1,2
+length of Log Record: 2048	prev offset: 0		num ops: 16
+uuid: 985604ba-925c-4041-9415-412e86885105   format: little endian linux
+h_size: 32768
+----------------------------------------------------------------------------
+Oper (0): tid: 9009e0da  len: 0  clientid: TRANS  flags: START 
+----------------------------------------------------------------------------
+Oper (1): tid: 9009e0da  len: 16  clientid: TRANS  flags: none
+TRAN:     tid: 9009e0da  num_items: 13
+----------------------------------------------------------------------------
+Oper (2): tid: 9009e0da  len: 24  clientid: TRANS  flags: none
+BUF:  #regs: 2   start blkno: 2 (0x2)  len: 1  bmap size: 1  flags: 0x3800
+Oper (3): tid: 9009e0da  len: 128  clientid: TRANS  flags: none
+AGI Buffer: XAGI  
+ver: 1  seq#: 0  len: 63872  cnt: 64  root: 3
+level: 1  free#: 0x3c  newino: 0x80
+bucket[0 - 3]: 0xffffffff 0xffffffff 0xffffffff 0xffffffff 
+bucket[4 - 7]: 0xffffffff 0xffffffff 0xffffffff 0xffffffff 
+bucket[8 - 11]: 0xffffffff 0xffffffff 0xffffffff 0xffffffff 
+bucket[12 - 15]: 0xffffffff 0xffffffff 0xffffffff 0xffffffff 
+bucket[16 - 19]: 0xffffffff 
+----------------------------------------------------------------------------
+Oper (4): tid: 9009e0da  len: 24  clientid: TRANS  flags: none
+BUF:  #regs: 2   start blkno: 32 (0x20)  len: 8  bmap size: 1  flags: 0x2000
+Oper (5): tid: 9009e0da  len: 128  clientid: TRANS  flags: none
+BUF DATA
+----------------------------------------------------------------------------
+Oper (6): tid: 9009e0da  len: 24  clientid: TRANS  flags: none
+BUF:  #regs: 2   start blkno: 24 (0x18)  len: 8  bmap size: 1  flags: 0x2000
+Oper (7): tid: 9009e0da  len: 128  clientid: TRANS  flags: none
+BUF DATA
+----------------------------------------------------------------------------
+Oper (8): tid: 9009e0da  len: 24  clientid: TRANS  flags: none
+BUF:  #regs: 2   start blkno: 0 (0x0)  len: 1  bmap size: 1  flags: 0x9000
+Oper (9): tid: 9009e0da  len: 384  clientid: TRANS  flags: none
+SUPER BLOCK Buffer: 
+icount: 64  ifree: 61  fdblks: 226224  frext: 0
+----------------------------------------------------------------------------
+Oper (10): tid: 9009e0da  len: 56  clientid: TRANS  flags: none
+INODE: #regs: 2   ino: 0x83  flags: 0x1   dsize: 0
+        blkno: 128  len: 32  boff: 1536
+Oper (11): tid: 9009e0da  len: 176  clientid: TRANS  flags: none
+INODE CORE
+magic 0x494e mode 0100644 version 3 format 2
+nlink 1 uid 0 gid 0
+atime 0xffffffff865bc616 mtime 0xffffffff865bc616 ctime 0xffffffff865bc616
+size 0x0 nblocks 0x0 extsize 0x0 nextents 0x0
+naextents 0x0 forkoff 24 dmevmask 0x0 dmstate 0x0
+flags 0x0 gen 0x87d54441
+flags2 0x18 cowextsize 0x0
+----------------------------------------------------------------------------
+Oper (12): tid: 9009e0da  len: 56  clientid: TRANS  flags: none
+INODE: #regs: 3   ino: 0x80  flags: 0x3   dsize: 22
+        blkno: 128  len: 32  boff: 0
+Oper (13): tid: 9009e0da  len: 176  clientid: TRANS  flags: none
+INODE CORE
+magic 0x494e mode 040755 version 3 format 1
+nlink 2 uid 0 gid 0
+atime 0xffffffffc95ad51f mtime 0xffffffff865bc616 ctime 0xffffffff865bc616
+size 0x16 nblocks 0x0 extsize 0x0 nextents 0x0
+naextents 0x0 forkoff 0 dmevmask 0x0 dmstate 0x0
+flags 0x0 gen 0x0
+flags2 0x18 cowextsize 0x0
+Oper (14): tid: 9009e0da  len: 24  clientid: TRANS  flags: none
+LOCAL inode data
+SHORTFORM DIRECTORY size 22
+----------------------------------------------------------------------------
+Oper (15): tid: 9009e0da  len: 0  clientid: TRANS  flags: COMMIT 
+
+============================================================================
+cycle: 1	version: 2		lsn: 1,7	tail_lsn: 1,2
+length of Log Record: 512	prev offset: 2		num ops: 5
+uuid: 985604ba-925c-4041-9415-412e86885105   format: little endian linux
+h_size: 32768
+----------------------------------------------------------------------------
+Oper (0): tid: b2588852  len: 0  clientid: TRANS  flags: START 
+----------------------------------------------------------------------------
+Oper (1): tid: b2588852  len: 16  clientid: TRANS  flags: none
+TRAN:     tid: b2588852  num_items: 2
+----------------------------------------------------------------------------
+Oper (2): tid: b2588852  len: 24  clientid: TRANS  flags: none
+BUF:  #regs: 2   start blkno: 0 (0x0)  len: 1  bmap size: 1  flags: 0x9000
+Oper (3): tid: b2588852  len: 384  clientid: TRANS  flags: none
+SUPER BLOCK Buffer: 
+icount: 64  ifree: 60  fdblks: 239068  frext: 0
+----------------------------------------------------------------------------
+Oper (4): tid: b2588852  len: 0  clientid: TRANS  flags: COMMIT 
+
+============================================================================
+cycle: 1	version: 2		lsn: 1,9	tail_lsn: 1,7
+length of Log Record: 512	prev offset: 7		num ops: 5
+uuid: 985604ba-925c-4041-9415-412e86885105   format: little endian linux
+h_size: 32768
+----------------------------------------------------------------------------
+Oper (0): tid: d9f496f8  len: 0  clientid: TRANS  flags: START 
+----------------------------------------------------------------------------
+Oper (1): tid: d9f496f8  len: 16  clientid: TRANS  flags: none
+TRAN:     tid: d9f496f8  num_items: 2
+----------------------------------------------------------------------------
+Oper (2): tid: d9f496f8  len: 24  clientid: TRANS  flags: none
+BUF:  #regs: 2   start blkno: 0 (0x0)  len: 1  bmap size: 1  flags: 0x9000
+Oper (3): tid: d9f496f8  len: 384  clientid: TRANS  flags: none
+SUPER BLOCK Buffer: 
+icount: 64  ifree: 60  fdblks: 239068  frext: 0
+----------------------------------------------------------------------------
+Oper (4): tid: d9f496f8  len: 0  clientid: TRANS  flags: COMMIT 
+
+============================================================================
+cycle: 1	version: 2		lsn: 1,11	tail_lsn: 1,9
+length of Log Record: 512	prev offset: 9		num ops: 1
+uuid: 985604ba-925c-4041-9415-412e86885105   format: little endian linux
+h_size: 32768
+----------------------------------------------------------------------------
+Oper (0): tid: f9c22aa5  len: 0  clientid: LOG  flags: UNMOUNT 
+
+============================================================================
+xfs_logprint: skipped 4085 cleared blocks in range: 13 - 4097
+xfs_logprint: skipped 126974 zeroed blocks in range: 4098 - 131071
+xfs_logprint: physical end of log
+============================================================================
+xfs_logprint: logical end of log
+============================================================================

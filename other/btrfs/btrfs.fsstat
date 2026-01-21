@@ -1,0 +1,40 @@
+File system UUID: 5359F85B-1B21-F249-9CAB-CB02B8965457
+Total device number: 1
+
+Current device info:
+Device ID: 1
+Device UUID: 5C64B448-D343-AD43-8926-E5F5681F7EC4
+Total bytes: 998MB
+Bytes used: 20MB
+File System UUID: 5359F85B-1B21-F249-9CAB-CB02B8965457
+
+Root tree root address: 0x0000000000530000
+Chunk tree root address: 0x0000000000104000
+Log tree root address: 0x0000000000000000
+
+Unit size:
+Sector	Node	Leaf	Stripe
+4096	16384	16384	4096
+
+System chunk array size: 97
+Chunk item data:
+----------------------------------------------
+Chunk size: 4194304
+Stripe length: 65536
+Number of stripes: 1
+Sub stripes: 0
+
+Device ID: 1
+Offset: 0x100000
+Device UUID: 5C64B448-D343-AD43-8926-E5F5681F7EC4
+----------------------------------------------
+
+
+
+Magic: _BHRfS_M
+Total size: 998MB
+Used size: 144KB
+
+Label: 
+
+

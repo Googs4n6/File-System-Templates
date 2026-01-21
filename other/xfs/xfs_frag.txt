@@ -1,0 +1,3 @@
+actual 0, ideal 0, fragmentation factor 0.00%
+Note, this number is largely meaningless.
+Files on this filesystem average -nan extents per file

@@ -1,0 +1,7 @@
+Device: /dev/loop0p1
+Volume: <      >
+FSname: <      >
+BlockSize: 512
+Inodes: 512 (in 64 blocks)
+Blocks: 2043904
+Inode end: 33279, Data end: 1046478847

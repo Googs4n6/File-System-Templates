@@ -1,0 +1,24 @@
+btrfs-progs v6.17.1
+See https://btrfs.readthedocs.io for more information.
+
+Performing full device TRIM /dev/loop0p1 (998.00MiB) ...
+Label:              (null)
+UUID:               5bf85953-211b-49f2-9cab-cb02b8965457
+Node size:          16384
+Sector size:        4096        (CPU page size: 4096)
+Filesystem size:    998.00MiB
+Block group profiles:
+  Data:             single            8.00MiB
+  Metadata:         single            8.00MiB
+  System:           single            4.00MiB
+SSD detected:       yes
+Zoned device:       no
+Features:           extref, skinny-metadata, no-holes, free-space-tree
+Checksum:           crc32c
+Number of devices:  1
+Devices:
+   ID        SIZE  PATH        
+    1   998.00MiB  /dev/loop0p1
+
+
+

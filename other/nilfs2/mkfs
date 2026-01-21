@@ -1,0 +1,6 @@
+mkfs.nilfs2 (nilfs-utils 2.2.12)
+Start writing file system initial data to the device
+       Blocksize:4096  Device:/dev/loop0p1  Device Size:1046478848
+File system initialization succeeded !! 
+
+
